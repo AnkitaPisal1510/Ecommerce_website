@@ -1,8 +1,110 @@
-.NavBar{
-  border: 2px solid black;
-  height: 200px;
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+  height: 67px;
 }
 
-*{
-  margin: 0px;
+.MixMall {
+  width: 1600px; 
+  align-items: center;
+  display: flex;
+  position: sticky;
+  top: 0;
+  justify-content: space-between;
+  background-color: #ffffff;
+  padding: 12px 28px 12px 28px;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: white;
+  padding: 10px 0; /* Adjust padding for the navbar */
+}
+
+.navbar-brand h2 {
+  margin: 0;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.nav-link {
+  color: #333;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  background-color: #eee;
+  color: #007bff;
+}
+
+/* Additional styling for the search bar */
+.form-control {
+  margin-left: 20px;
+}
+
+/* Styling for the content outside the container */
+.content-container {
+  background-color: lightblue;
+  padding: 20px;
+}
+
+.product-list {
+  list-style: none;
+  padding: 0;
+}
+
+.product-item {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.product-item img {
+  width: 100px;
+  margin-right: 15px;
+}
+
+.product-item div {
+  flex-grow: 1;
+}
+
+.containerforrowcol{
+  margin-top: 20px; 
+  background-color:#ffffff;
+  width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row{
+  height: 126px;
+  width: 1600px;
+  padding-left:215px;
+  padding-right:215px;
+
+}
+
+.col-1 { 
+  padding: 10px; 
+  text-align: center; 
+  background-color: #f8f9fa; 
+  height: 126px;
+  width: 130px;
+
+}
+.p{
+  font-size: 2px;
 }
