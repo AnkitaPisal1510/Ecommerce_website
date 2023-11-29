@@ -11,7 +11,7 @@ const MyNavbar = () => {
     <div>
       <div className="container">
         <BootstrapNavbar bg="light" expand="lg">
-          <div className="MixMall navbar-brand">MixMall</div>          
+          <div className="MixMall navbar-brand"><h1>MixMall</h1></div>          
           <FormControl type="text" placeholder="Search for product, Brands and more" className="mr-sm-2" />
           <BootstrapNavbar.Toggle aria-controls="navbarNav" />
           <BootstrapNavbar.Collapse id="navbarNav">

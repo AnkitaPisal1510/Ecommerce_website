@@ -27,7 +27,7 @@
 
 .navbar {
   background-color: white;
-  padding: 10px 0; /* Adjust padding for the navbar */
+  padding: 10px 0; 
 }
 
 .navbar-brand h2 {
@@ -50,12 +50,12 @@
   color: #007bff;
 }
 
-/* Additional styling for the search bar */
+
 .form-control {
   margin-left: 20px;
 }
 
-/* Styling for the content outside the container */
+
 .content-container {
   background-color: lightblue;
   padding: 20px;
@@ -82,7 +82,7 @@
 }
 
 .containerforrowcol{
-  margin-top: 20px; 
+  margin-top: 10px; 
   background-color:#ffffff;
   width: 1600px;
   margin-left: auto;
@@ -100,11 +100,65 @@
 .col-1 { 
   padding: 10px; 
   text-align: center; 
-  background-color: #f8f9fa; 
+  background-color: #ffffff; 
   height: 126px;
   width: 130px;
 
 }
 .p{
   font-size: 2px;
+}
+
+
+.carousel {
+  position: relative;
+}
+
+
+.carousel-item img {
+  width: 1600px;
+  height: 265.39;
+}
+.slider{
+  width: 1600px;
+  height: 265.39;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff; 
+}
+
+
+
+
+.carousel-control-prev, .carousel-control-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2rem;
+  color: #fff;
+}
+
+.carousel-indicators {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 15;
+}
+
+.carousel-indicators li {
+  background-color: #fff; 
+  border: 1px solid #ccc; 
+}
+
+.carousel-indicators .active {
+  background-color: #333; 
 }
