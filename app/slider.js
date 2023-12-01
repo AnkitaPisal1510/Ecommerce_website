@@ -11,9 +11,7 @@ const Slider = () => {
     };
 
     
-    if (typeof window === 'undefined') {
-      return null; 
-    }
+    
 
     return (
       <Carousel activeIndex={index} onSelect={handleSelect}>
