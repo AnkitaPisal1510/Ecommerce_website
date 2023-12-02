@@ -8,37 +8,44 @@ import FormControl from 'react-bootstrap/FormControl';
 
 const MyNavbar = () => {
   return (
-    <div>
-      <div className="container">
-        <BootstrapNavbar bg="light" expand="lg">
-          <div className="MixMall navbar-brand"><h1>MixMall</h1></div>          
-          <FormControl type="text" placeholder="Search for product, Brands and more" className="mr-sm-2" />
-          <BootstrapNavbar.Toggle aria-controls="navbarNav" />
-          <BootstrapNavbar.Collapse id="navbarNav">
-            <Nav className="navbar-nav ml-auto">
-              <li className="nav-item">
-                <Link href="/about" passHref legacyBehavior>
-                  <a className="nav-link">About</a>
-                </Link>
-              </li>
+     <nav class="navbar navbar-dark bg-primary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">MixMall</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            </div>
+            <div class="d-flex">
+              <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"></input>
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+                <ul>
 
-              <li className="nav-item">
-                <Link href="/login" passHref legacyBehavior>
-                  <a className="nav-link">Login</a>
-                </Link>
-              </li>
+                  <li className="nav-item">
+                    <Link href="/about" passHref legacyBehavior>
+                      <a className="nav-link">About</a>
+                    </Link>
+                  </li>
+                  </ul>
+                  <ul>
+                  <li className="nav-item">
+                    <Link href="/login" passHref legacyBehavior>
+                      <a className="nav-link">Login</a>
+                    </Link>
+                  </li>
+                  </ul>
+                  <ul>
+                  <li className="nav-item">
+                    <Link href="/cart" passHref legacyBehavior>
+                      <a className="nav-link">Cart</a>
+                    </Link>
+                  </li>
+                  </ul>
 
-              <li className="nav-item">
-                <Link href="/cart" passHref legacyBehavior>
-                  <a className="nav-link">Cart</a>
-                </Link>
-              </li>
-            </Nav>
-          </BootstrapNavbar.Collapse>
-        </BootstrapNavbar>
-      </div>
-    </div>
-  );
-};
+            </div>
+      </nav>
+   );
+ };
 
 export default MyNavbar;

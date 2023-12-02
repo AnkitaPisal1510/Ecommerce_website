@@ -35,8 +35,13 @@ const Slider = () => {
     },
     {
       src: "/flip4.webp",
-      alt: "Image Description 3",
+      alt: "Image Description 4",
     },
+    {
+      src: "/flip5.webp",
+      alt: "Image Description 5",
+    },
+
   ];
 
   return (
