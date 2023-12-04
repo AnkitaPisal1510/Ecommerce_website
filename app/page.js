@@ -25,28 +25,28 @@ const Home = () => {
         <p style={{ color: 'black',margin:'13px' }}>Mobiles</p>
         </a>
       </Link>  
-      <Link href="/Mobiles" passHref legacyBehavior>  
+      <Link href="/Fashion" passHref legacyBehavior>  
         <a class="col-1" style={{ textDecoration: 'none' }}>
         <img src="/fash1.png" alt="Image Description" width="64" height="64" /> 
         <p style={{ color: 'black',margin:'13px' }}>Fashion</p>
         </a>
         </Link>  
 
-        <Link href="/Mobiles" passHref legacyBehavior>
+        <Link href="Electronics" passHref legacyBehavior>
         <a class="col-1" style={{ textDecoration: 'none' }}>
         <img src="/electronic.jpeg" alt="Image Description" width="64" height="64" />
         <p style={{ color: 'black',margin:'13px' }}>Electronics</p>
         </a>
         </Link>  
 
-        <Link href="/Mobiles" passHref legacyBehavior>
+        <Link href="/Furniture" passHref legacyBehavior>
         <a class="col-1" style={{ textDecoration: 'none' }}>
         <img src="/furniture.png" alt="Image Description" width="64" height="64" />
         <p style={{ color: 'black',margin:'13px' }}>Furniture</p>
         </a>
         </Link>  
 
-        <Link href="/Mobiles" passHref legacyBehavior>
+        <Link href="/Appliances" passHref legacyBehavior>
         <a class="col-1" style={{ textDecoration: 'none' }}>
         <img src="/appliances.jpg" alt="Image Description" width="64" height="64" />
         <p style={{ color: 'black',margin:'13px' }}>Appliances</p>
@@ -54,7 +54,7 @@ const Home = () => {
         </Link>  
 
 
-        <Link href="/Mobiles" passHref legacyBehavior>
+        <Link href="/Travel" passHref legacyBehavior>
         <a class="col-1" style={{ textDecoration: 'none' }}>
         <img src="/tavel.png" alt="Image Description" width="64" height="64" />
         <p style={{ color: 'black',margin:'13px' }}>Travel</p>
@@ -62,7 +62,7 @@ const Home = () => {
         </Link>  
 
 
-        <Link href="/Mobiles" passHref legacyBehavior>
+        <Link href="/Beauty" passHref legacyBehavior>
         <a class="col-1" style={{ textDecoration: 'none' }}>
         <img src="/beauty.jpeg" alt="Image Description" width="64" height="64" />
         <p style={{ color: 'black',margin:'13px' }}>Beauty</p>
@@ -70,7 +70,7 @@ const Home = () => {
         </Link>  
 
 
-        <Link href="/Mobiles" passHref legacyBehavior>
+        <Link href="/Toys" passHref legacyBehavior>
         <a class="col-1" style={{ textDecoration: 'none' }}>
         <img src="/toys.avif" alt="Image Description" width="64" height="64"/>
         <p style={{ color: 'black', margin:'13px' }}>Toys</p>
